@@ -23,7 +23,7 @@ for features in df['features']:
 
 cosine_sim = cosine_similarity(bow, bow)
 
-titles = ["Naruto", "Red Notice", "Breaking Bad"]
+titles = ["Naruto", "Narcos", "Breaking Bad"]
 query = df[df['title'].isin(titles)].index
 
 for query_idx in query:
